@@ -4,8 +4,9 @@ namespace AlgoliaSearch\Tests;
 
 use AlgoliaSearch\Laravel\EloquentSubscriber;
 use AlgoliaSearch\Tests\Models\Model1;
+use PHPUnit\Framework\TestCase;
 
-class EloquentSubscriberTest extends \PHPUnit_Framework_TestCase
+class EloquentSubscriberTest extends TestCase
 {
     /**
      * @var \PHPUnit_Framework_MockObject_MockObject
